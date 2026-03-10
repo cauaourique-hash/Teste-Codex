@@ -1,27 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data & Analytics | Landing Page</title>
+    <meta
+      name="description"
+      content="Landing page institucional da área de Data & Analytics com foco em inovação, automação e decisões inteligentes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar" id="topo">
+      <div class="container nav-wrapper">
+        <a href="#topo" class="brand" aria-label="Ir para o topo">Data & Analytics</a>
 
-<head>
-<style>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-body{
-  font-family: Arial;
-  text-align:center;
-  margin-top:100px;
-}
+        <nav class="menu" aria-label="Menu principal">
+          <a href="#beneficios">Benefícios</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#indicadores">Indicadores</a>
+          <a href="#cta">Contato</a>
+        </nav>
+      </div>
+    </header>
 
-h1{
-  color: #2c7be5;
-}
+    <main>
+      <section class="hero section-padding">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <span class="eyebrow">Inovação orientada por dados</span>
+            <h1>Transformando dados em decisões inteligentes</h1>
+            <p>
+              Unimos analytics, automação e visão de negócio para acelerar resultados
+              com confiança.
+            </p>
+            <div class="hero-actions">
+              <a href="#sobre" class="btn btn-primary">Conheça a área</a>
+              <a href="#beneficios" class="btn btn-secondary">Ver iniciativas</a>
+            </div>
+          </div>
 
-</style>
-</head>
+          <div class="hero-panel reveal delay-1" aria-hidden="true">
+            <div class="badge-card">
+              <strong>DataOps + BI</strong>
+              <p>Processos confiáveis para escalar inteligência.</p>
+            </div>
+            <div class="badge-card">
+              <strong>Analytics aplicado</strong>
+              <p>Insights acionáveis para decisões estratégicas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<body>
+      <section id="beneficios" class="section-padding section-bg">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Benefícios que impulsionam resultados</h2>
+            <p>
+              Atuamos de ponta a ponta para transformar dados em valor real para o negócio.
+            </p>
+          </div>
 
-<h1>Olá meu amigo 🚀</h1>
-<p>Meu primeiro site publicado no GitHub Pages</p>
+          <div class="cards-grid">
+            <article class="card reveal">
+              <h3>Governança de dados</h3>
+              <p>Padrões, qualidade e segurança para decisões mais confiáveis.</p>
+            </article>
+            <article class="card reveal delay-1">
+              <h3>Automação inteligente</h3>
+              <p>Redução de tarefas repetitivas com fluxos eficientes e rastreáveis.</p>
+            </article>
+            <article class="card reveal delay-2">
+              <h3>Visão analítica</h3>
+              <p>Painéis claros e monitoramento contínuo dos indicadores-chave.</p>
+            </article>
+            <article class="card reveal delay-3">
+              <h3>Tomada de decisão</h3>
+              <p>Suporte analítico para priorizar ações com maior impacto estratégico.</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <section id="sobre" class="section-padding">
+        <div class="container about reveal">
+          <h2>Sobre a área</h2>
+          <p>
+            A área de Data & Analytics conecta tecnologia, negócio e dados para gerar
+            eficiência operacional e impacto mensurável. Trabalhamos em parceria com as
+            áreas estratégicas para estruturar informações, automatizar processos e
+            orientar decisões com rapidez, transparência e inteligência.
+          </p>
+        </div>
+      </section>
 
+      <section id="indicadores" class="section-padding section-bg">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Indicadores em destaque</h2>
+            <p>Números que refletem nossa maturidade, consistência e evolução contínua.</p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat reveal">
+              <strong class="counter" data-target="120" data-prefix="+" data-suffix="">0</strong>
+              <span>dashboards entregues</span>
+            </article>
+            <article class="stat reveal delay-1">
+              <strong class="counter" data-target="98" data-prefix="" data-suffix="%">0</strong>
+              <span>de estabilidade operacional</span>
+            </article>
+            <article class="stat reveal delay-2">
+              <strong class="counter" data-target="35" data-prefix="" data-suffix="%">0</strong>
+              <span>menos esforço manual</span>
+            </article>
+            <article class="stat reveal delay-3">
+              <strong class="counter" data-target="4" data-prefix="" data-suffix="">0</strong>
+              <span>áreas estratégicas atendidas</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="section-padding">
+        <div class="container cta reveal">
+          <h2>Pronto para evoluir sua jornada data-driven?</h2>
+          <p>
+            Vamos construir soluções analíticas para acelerar performance e aumentar a
+            confiança nas decisões do seu negócio.
+          </p>
+          <a href="#topo" class="btn btn-primary">Falar com o time</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Data & Analytics. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
